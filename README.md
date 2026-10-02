@@ -2,6 +2,10 @@
 
 A modern personal portfolio website built with React, Vite, Tailwind CSS, Framer Motion, and React Icons. This portfolio highlights projects, training, skills, education, achievements, and contact information in a premium dark-themed layout.
 
+## Live Demo
+
+[View the portfolio](https://rajiv-raj-portfolio.vercel.app/)
+
 ## Features
 
 - Responsive one-page portfolio layout
