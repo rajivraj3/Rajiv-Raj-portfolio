@@ -1,0 +1,17 @@
+Rajiv Raj
+MERN Stack Developer | AI/ML Enthusiast
+
+This is a placeholder resume file for Rajiv Raj.
+Replace this file with a real PDF or updated resume when available.
+
+Profile:
+- B.Tech CSE student at Lovely Professional University
+- Specialization: MERN Stack Development
+- Interest: AI / Machine Learning
+- Location: India
+
+Skills:
+- JavaScript, React, Node.js, Express.js, MongoDB, MySQL
+- HTML, CSS, Tailwind CSS, REST APIs
+- Python, NumPy, Pandas, Matplotlib, Scikit-learn
+- Git, GitHub, VS Code, Postman
