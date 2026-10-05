@@ -12,7 +12,7 @@ export default function Footer() {
           <a href="#about" className="transition hover:text-white">About</a>
           <a href="#projects" className="transition hover:text-white">Projects</a>
           <a href="https://github.com/rajivraj3" target="_blank" rel="noreferrer" className="transition hover:text-white">GitHub</a>
-          <a href="https://www.linkedin.com/in/rajiv-raj3" target="_blank" rel="noreferrer" className="transition hover:text-white">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/rajiv-raj-312rnc/" target="_blank" rel="noreferrer" className="transition hover:text-white">LinkedIn</a>
           <a href="mailto:rajivraj2635@gmail.com" className="transition hover:text-white">Email</a>
         </div>
 

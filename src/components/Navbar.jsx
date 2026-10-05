@@ -71,7 +71,7 @@ export default function Navbar({ activeSection }) {
               <FaGithub size={18} />
             </a>
             <a
-              href="https://www.linkedin.com/in/rajiv-raj3"
+              href="https://www.linkedin.com/in/rajiv-raj-312rnc/"
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
@@ -126,7 +126,7 @@ export default function Navbar({ activeSection }) {
               <a href="https://github.com/rajivraj3" target="_blank" rel="noreferrer" className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 text-slate-200">
                 <FaGithub size={18} />
               </a>
-              <a href="https://www.linkedin.com/in/rajiv-raj3" target="_blank" rel="noreferrer" className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 text-slate-200">
+              <a href="https://www.linkedin.com/in/rajiv-raj-312rnc/" target="_blank" rel="noreferrer" className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 text-slate-200">
                 <FaLinkedinIn size={18} />
               </a>
               <a href="/Rajiv%20Raj%20final%20cv.pdf" download className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-cyan-400 to-violet-500 px-4 py-2 text-sm font-semibold text-slate-950">

@@ -58,7 +58,7 @@ export default function Hero() {
             <a href="https://github.com/rajivraj3" target="_blank" rel="noreferrer" aria-label="GitHub" className="flex h-11 w-11 items-center justify-center rounded-full border border-[#8bc8c0] bg-[#edf5ef] text-[#1d3b39] transition hover:-translate-y-0.5 hover:border-[#4db6b0] hover:text-[#1a4f52]">
               <FaGithub size={18} />
             </a>
-            <a href="https://www.linkedin.com/in/rajiv-raj3" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="flex h-11 w-11 items-center justify-center rounded-full border border-[#8bc8c0] bg-[#edf5ef] text-[#1d3b39] transition hover:-translate-y-0.5 hover:border-[#4db6b0] hover:text-[#1a4f52]">
+            <a href="https://www.linkedin.com/in/rajiv-raj-312rnc/" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="flex h-11 w-11 items-center justify-center rounded-full border border-[#8bc8c0] bg-[#edf5ef] text-[#1d3b39] transition hover:-translate-y-0.5 hover:border-[#4db6b0] hover:text-[#1a4f52]">
               <FaLinkedinIn size={18} />
             </a>
             <a href="mailto:rajivraj2635@gmail.com" aria-label="Email" className="flex h-11 w-11 items-center justify-center rounded-full border border-[#8bc8c0] bg-[#edf5ef] text-[#1d3b39] transition hover:-translate-y-0.5 hover:border-[#4db6b0] hover:text-[#1a4f52]">
