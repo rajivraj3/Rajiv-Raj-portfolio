@@ -15,6 +15,7 @@ export const projects = [
     description:
       'Built a responsive trading platform covering portfolio, holdings, positions, orders, and funds. Engineered REST APIs for users, orders, holdings, and support, powering buy orders, watchlists, and profit-and-loss tracking. Visualized portfolio and trading data with interactive Chart.js charts in a MUI/Bootstrap interface.',
     tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'Chart.js', 'MUI', 'Bootstrap', 'Axios'],
+    demoUrl: 'https://divyatrades-1.onrender.com/',
     githubUrl: 'https://github.com/rajivraj3/DivyaTrades',
     isPlaceholder: false,
     accent: 'from-emerald-500/25 via-teal-500/15 to-cyan-500/20',
