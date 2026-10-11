@@ -78,7 +78,7 @@ export default function Contact() {
               </div>
               <div className="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/5 p-4 text-slate-200">
                 <FaLinkedinIn size={18} className="text-cyan-300" />
-                <span>linkedin.com/in/rajiv-raj-312rnc</span>
+                <span>linkedin.com/in/rajiv-raj-div3</span>
               </div>
               <div className="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/5 p-4 text-slate-200">
                 <span className="text-cyan-300 font-semibold">📞</span>
