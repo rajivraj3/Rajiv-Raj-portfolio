@@ -80,7 +80,7 @@ export default function Navbar({ activeSection }) {
               <FaLinkedinIn size={18} />
             </a>
             <a
-              href="/Rajiv_Raj_final_cv_updated.pdf"
+              href="/Rajiv_Raj_CV%20(2).pdf"
               download
               className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-cyan-400 to-violet-500 px-4 py-2 text-sm font-semibold text-slate-950 shadow-glow transition hover:-translate-y-0.5"
             >
@@ -129,7 +129,7 @@ export default function Navbar({ activeSection }) {
               <a href="https://www.linkedin.com/in/rajiv-raj-div3/" target="_blank" rel="noreferrer" className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 text-slate-200">
                 <FaLinkedinIn size={18} />
               </a>
-              <a href="/Rajiv_Raj_final_cv_updated.pdf" download className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-cyan-400 to-violet-500 px-4 py-2 text-sm font-semibold text-slate-950">
+              <a href="/Rajiv_Raj_CV%20(2).pdf" download className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-cyan-400 to-violet-500 px-4 py-2 text-sm font-semibold text-slate-950">
                 <Sparkles size={14} /> Resume
               </a>
             </div>

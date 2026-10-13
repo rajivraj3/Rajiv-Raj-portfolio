@@ -42,7 +42,7 @@ export default function Hero() {
               <ArrowRight size={18} />
             </a>
             <a
-              href="/Rajiv_Raj_CV%20(1).pdf"
+              href="/Rajiv_Raj_CV%20(2).pdf"
               download
               className="inline-flex items-center gap-2 rounded-full border border-[#7ea19a] bg-[#edf3e5] px-6 py-3 text-sm font-semibold text-[#1f2d2a] transition hover:border-[#5d8c86] hover:bg-white/70"
             >
