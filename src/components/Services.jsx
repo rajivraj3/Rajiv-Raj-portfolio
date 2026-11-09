@@ -2,12 +2,12 @@ import { motion } from 'framer-motion'
 import { AppWindow, DatabaseZap, Globe, Layers3, Rocket, Zap } from 'lucide-react'
 
 const services = [
-  { title: 'Full Stack Web Applications', description: 'Scalable and modern product experiences from UI to backend logic.', icon: AppWindow },
-  { title: 'Responsive Frontend Interfaces', description: 'Clean and adaptive interfaces built for desktop, tablet and mobile.', icon: Globe },
-  { title: 'REST APIs', description: 'Reliable API design and integration for efficient application workflows.', icon: Layers3 },
-  { title: 'MongoDB Applications', description: 'Data-driven apps with robust models and flexible database structures.', icon: DatabaseZap },
-  { title: 'AI-powered Web Applications', description: 'Exploring intelligent features and data-informed user experiences.', icon: Zap },
-  { title: 'Data-driven Applications', description: 'Insightful dashboards and apps powered by useful analysis and metrics.', icon: Rocket },
+  { title: 'Full Stack Web Applications', description: 'Scalable and modern product experiences from UI to backend logic.', icon: AppWindow, illustration: 'service-full-stack' },
+  { title: 'Responsive Frontend Interfaces', description: 'Clean and adaptive interfaces built for desktop, tablet and mobile.', icon: Globe, illustration: 'service-responsive' },
+  { title: 'REST APIs', description: 'Reliable API design and integration for efficient application workflows.', icon: Layers3, illustration: 'service-api' },
+  { title: 'MongoDB Applications', description: 'Data-driven apps with robust models and flexible database structures.', icon: DatabaseZap, illustration: 'service-mongodb' },
+  { title: 'AI-powered Web Applications', description: 'Exploring intelligent features and data-informed user experiences.', icon: Zap, illustration: 'service-ai-app' },
+  { title: 'Data-driven Applications', description: 'Insightful dashboards and apps powered by useful analysis and metrics.', icon: Rocket, illustration: 'service-dashboard' },
 ]
 
 export default function Services() {
@@ -30,10 +30,21 @@ export default function Services() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.2 }}
                 transition={{ duration: 0.4, delay: index * 0.06 }}
-                className="rounded-[28px] border border-white/10 bg-slate-900/70 p-6 transition hover:-translate-y-1 hover:border-cyan-400/40"
+                className="h-full rounded-[28px] border border-white/10 bg-slate-900/70 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-cyan-400/40 hover:shadow-lg hover:shadow-cyan-950/30"
               >
-                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-cyan-500/20 to-violet-500/20 text-cyan-300">
-                  <Icon size={22} />
+                <div className="mb-4 flex items-center gap-3">
+                  <svg
+                    role="img"
+                    aria-label={`${service.title} illustration`}
+                    className="h-12 w-12 shrink-0 rounded-xl border border-cyan-300/15 bg-gradient-to-br from-cyan-500/10 to-violet-500/10 p-2"
+                    viewBox="0 0 64 64"
+                    focusable="false"
+                  >
+                    <use href={`/images/technology-illustrations.svg#${service.illustration}`} />
+                  </svg>
+                  <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-gradient-to-br from-cyan-500/20 to-violet-500/20 text-cyan-300">
+                    <Icon size={20} />
+                  </div>
                 </div>
                 <h3 className="text-xl font-semibold text-white">{service.title}</h3>
                 <p className="mt-3 text-base leading-7 text-slate-300">{service.description}</p>
