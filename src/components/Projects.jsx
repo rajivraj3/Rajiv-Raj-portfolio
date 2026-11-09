@@ -24,10 +24,16 @@ export default function Projects() {
               whileHover={{ y: -8 }}
               className="group overflow-hidden rounded-[30px] border border-white/10 bg-slate-900/70 shadow-[0_20px_60px_rgba(15,23,42,0.6)]"
             >
-              <div className={`relative h-52 bg-gradient-to-br ${project.accent} p-6`}>
-                <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.2),transparent_30%)]" />
-                <div className="relative flex h-full items-start justify-between">
-                  <div className="rounded-2xl border border-white/10 bg-slate-950/30 p-3 text-4xl backdrop-blur-sm">{project.icon}</div>
+              <div className={`relative aspect-video overflow-hidden bg-gradient-to-br ${project.accent}`}>
+                <img
+                  src={project.image}
+                  alt={project.imageAlt}
+                  className="h-full w-full object-cover"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-slate-950/10" />
+                <div className="absolute inset-0 flex items-start justify-between p-5">
+                  <div aria-hidden="true" className="rounded-2xl border border-white/15 bg-slate-950/50 p-2.5 text-2xl shadow-lg backdrop-blur-sm">{project.icon}</div>
                   {project.isPlaceholder && (
                     <span className="rounded-full border border-amber-300/30 bg-amber-500/10 px-2 py-1 text-[10px] font-semibold uppercase tracking-[0.2em] text-amber-200">
                       Placeholder

@@ -2,10 +2,38 @@ import { motion } from 'framer-motion'
 import { GraduationCap, University, Code2, BrainCircuit } from 'lucide-react'
 
 const infoCards = [
-  { icon: GraduationCap, title: 'Education', text: 'B.Tech CSE' },
-  { icon: University, title: 'University', text: 'Lovely Professional University' },
-  { icon: Code2, title: 'Specialization', text: 'MERN Stack Development' },
-  { icon: BrainCircuit, title: 'Interest', text: 'AI / Machine Learning' },
+  {
+    icon: GraduationCap,
+    title: 'Education',
+    text: 'B.Tech CSE',
+    image: '/images/education-illustration.svg',
+    imageAlt: 'Computer science education illustration with a graduation cap, laptop, and programming code',
+    imageClassName: 'object-cover',
+  },
+  {
+    icon: University,
+    title: 'University',
+    text: 'Lovely Professional University',
+    image: '/images/lpu-logo.svg',
+    imageAlt: 'Lovely Professional University logo',
+    imageClassName: 'bg-white object-contain p-4',
+  },
+  {
+    icon: Code2,
+    title: 'Specialization',
+    text: 'MERN Stack Development',
+    image: '/images/full-stack-illustration.svg',
+    imageAlt: 'Full stack development illustration featuring React, Node, Express, and MongoDB',
+    imageClassName: 'object-cover',
+  },
+  {
+    icon: BrainCircuit,
+    title: 'Interest',
+    text: 'AI / Machine Learning',
+    image: '/images/ai-ml-illustration.svg',
+    imageAlt: 'AI and machine learning neural network illustration',
+    imageClassName: 'object-cover',
+  },
 ]
 
 export default function About() {
@@ -29,11 +57,22 @@ export default function About() {
             </p>
 
             <div className="mt-8 grid gap-4 sm:grid-cols-2">
-              {infoCards.map(({ icon: Icon, title, text }) => (
-                <div key={title} className="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm transition hover:-translate-y-1 hover:border-cyan-400/50 hover:bg-slate-900/80">
-                  <div className="mb-3 inline-flex rounded-xl bg-cyan-500/10 p-2 text-cyan-300">
-                    <Icon size={18} />
-                  </div>
+              {infoCards.map(({ icon: Icon, title, text, image, imageAlt, imageClassName }) => (
+                <div key={title} className="flex h-full min-h-[238px] flex-col rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm transition duration-300 hover:-translate-y-1 hover:border-cyan-400/50 hover:bg-slate-900/80">
+                  {image ? (
+                    <div className="mb-4 h-28 overflow-hidden rounded-xl border border-white/10 bg-[#020817]">
+                      <img
+                        src={image}
+                        alt={imageAlt}
+                        className={`h-full w-full ${imageClassName}`}
+                        loading="lazy"
+                      />
+                    </div>
+                  ) : (
+                    <div className="mb-3 flex h-9 w-9 shrink-0 self-start items-center justify-center rounded-xl bg-cyan-500/10 text-cyan-300">
+                      <Icon size={18} />
+                    </div>
+                  )}
                   <p className="text-sm font-semibold uppercase tracking-[0.15em] text-slate-400">{title}</p>
                   <p className="mt-2 text-base font-medium text-white">{text}</p>
                 </div>

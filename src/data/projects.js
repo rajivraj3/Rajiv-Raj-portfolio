@@ -9,6 +9,8 @@ export const projects = [
     isPlaceholder: false,
     accent: 'from-cyan-500/25 via-sky-500/15 to-indigo-500/20',
     icon: '🎥',
+    image: '/images/rajmeet-project.svg',
+    imageAlt: 'RajMeet video conferencing dashboard with multiple meeting participants and call controls',
   },
   {
     title: 'DivyaTrades – Full-Stack Trading Platform',
@@ -20,6 +22,8 @@ export const projects = [
     isPlaceholder: false,
     accent: 'from-emerald-500/25 via-teal-500/15 to-cyan-500/20',
     icon: '📈',
+    image: '/images/divyatrades-project.svg',
+    imageAlt: 'DivyaTrades stock trading dashboard with market chart, portfolio performance, and holdings',
   },
   {
     title: 'AI Marketing Strategist – AI-Powered Marketing Platform',
@@ -31,5 +35,7 @@ export const projects = [
     isPlaceholder: false,
     accent: 'from-violet-500/25 via-purple-500/15 to-pink-500/20',
     icon: '🤖',
+    image: '/images/ai-marketing-project.svg',
+    imageAlt: 'AI marketing dashboard with campaign analytics, content generation, and assistant chat',
   },
 ]

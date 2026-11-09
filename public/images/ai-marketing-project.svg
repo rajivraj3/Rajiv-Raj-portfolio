@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14102C"/>
+      <stop offset="1" stop-color="#211333"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="230" y1="145" x2="1102" y2="637" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#251B3C"/>
+      <stop offset="1" stop-color="#17172F"/>
+    </linearGradient>
+    <linearGradient id="spark" x1="523" y1="458" x2="725" y2="569" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#EC4899"/>
+    </linearGradient>
+    <linearGradient id="chart" x1="907" y1="234" x2="1058" y2="392" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C084FC"/>
+      <stop offset="1" stop-color="#F472B6"/>
+    </linearGradient>
+    <filter id="shadow" x="132" y="40" width="1016" height="648" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="25"/>
+    </filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1280v720H0z"/>
+  <circle cx="1078" cy="112" r="248" fill="#A855F7" fill-opacity=".12"/>
+  <circle cx="164" cy="628" r="256" fill="#EC4899" fill-opacity=".07"/>
+  <rect x="161" y="59" width="958" height="614" rx="27" fill="#03020B" fill-opacity=".52" filter="url(#shadow)"/>
+  <rect x="190" y="59" width="900" height="602" rx="24" fill="url(#panel)" stroke="#FFFFFF" stroke-opacity=".13" stroke-width="2"/>
+  <path fill="#231A37" d="M214 59h852a24 24 0 0 1 24 24v52H190V83a24 24 0 0 1 24-24Z"/>
+  <circle cx="224" cy="87" r="5" fill="#FB7185"/><circle cx="244" cy="87" r="5" fill="#FBBF24"/><circle cx="264" cy="87" r="5" fill="#34D399"/>
+  <rect x="422" y="74" width="330" height="26" rx="13" fill="#17132A"/>
+  <circle cx="440" cy="87" r="4" fill="#C084FC"/>
+  <text x="454" y="91" fill="#E9DDF7" font-family="Arial,sans-serif" font-size="11" font-weight="700">MARKETING STUDIO  /  OVERVIEW</text>
+  <circle cx="1018" cy="87" r="15" fill="#4C2B62"/>
+  <text x="1013" y="91" fill="#F5D0FE" font-family="Arial,sans-serif" font-size="10" font-weight="700">RR</text>
+  <rect x="212" y="158" width="192" height="478" rx="16" fill="#17142A"/>
+  <rect x="230" y="178" width="156" height="38" rx="11" fill="#382453"/>
+  <path d="M246 197c0-5 4-9 9-9s9 4 9 9-4 9-9 9-9-4-9-9Zm5 0h8m-4-4v8" stroke="#D8B4FE" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="274" y="201" fill="#F1DFFF" font-family="Arial,sans-serif" font-size="11" font-weight="700">Dashboard</text>
+  <g fill="#A99CB8" font-family="Arial,sans-serif" font-size="11">
+    <text x="270" y="257">Campaigns</text><text x="270" y="302">AI Studio</text><text x="270" y="347">Audience</text><text x="270" y="392">Analytics</text>
+  </g>
+  <g stroke="#9F91AE" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M237 249h16v13h-16zM237 294h16v13h-16zM237 339h16v13h-16zM237 384h16v13h-16z"/>
+    <path d="m241 255 3 3 6-7m-9 49h8m-8 4h8m-8 4h5M241 345h8m-8 4h8m-8 4h5"/>
+  </g>
+  <path d="M230 424h156" stroke="#FFFFFF" stroke-opacity=".08"/>
+  <text x="238" y="452" fill="#766984" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="1.2">WORKSPACE</text>
+  <rect x="236" y="469" width="144" height="42" rx="10" fill="#241A37"/>
+  <circle cx="254" cy="490" r="10" fill="#512D70"/>
+  <path d="m251 490 2 2 4-5" stroke="#E9D5FF" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="270" y="488" fill="#E8DFF1" font-family="Arial,sans-serif" font-size="9" font-weight="600">Spring launch</text>
+  <text x="270" y="501" fill="#9686A5" font-family="Arial,sans-serif" font-size="8">Active campaign</text>
+  <rect x="236" y="526" width="144" height="42" rx="10" fill="#241A37"/>
+  <circle cx="254" cy="547" r="10" fill="#343066"/>
+  <path d="M250 547h8m-4-4v8" stroke="#C4B5FD" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="270" y="545" fill="#E8DFF1" font-family="Arial,sans-serif" font-size="9" font-weight="600">Brand awareness</text>
+  <text x="270" y="558" fill="#9686A5" font-family="Arial,sans-serif" font-size="8">Draft</text>
+  <text x="436" y="183" fill="#F8F3FF" font-family="Arial,sans-serif" font-size="21" font-weight="700">Marketing overview</text>
+  <text x="436" y="205" fill="#A99BB8" font-family="Arial,sans-serif" font-size="10">Your campaigns are reaching more people this week.</text>
+  <rect x="918" y="166" width="146" height="33" rx="16.5" fill="url(#spark)"/>
+  <path d="m938 182 3-7 3 7 7 3-7 3-3 7-3-7-7-3 7-3Z" fill="#FFF"/>
+  <text x="958" y="186" fill="#FFF" font-family="Arial,sans-serif" font-size="9" font-weight="700">Create with AI</text>
+  <rect x="436" y="229" width="193" height="91" rx="13" fill="#2A2040" stroke="#FFFFFF" stroke-opacity=".07"/>
+  <text x="453" y="252" fill="#A99CB8" font-family="Arial,sans-serif" font-size="9">TOTAL REACH</text>
+  <text x="453" y="283" fill="#F8F3FF" font-family="Arial,sans-serif" font-size="22" font-weight="700">48.2K</text>
+  <text x="453" y="303" fill="#C4B5FD" font-family="Arial,sans-serif" font-size="9" font-weight="600">↗  18.6% this month</text>
+  <rect x="642" y="229" width="193" height="91" rx="13" fill="#2A2040" stroke="#FFFFFF" stroke-opacity=".07"/>
+  <text x="659" y="252" fill="#A99CB8" font-family="Arial,sans-serif" font-size="9">ENGAGEMENT</text>
+  <text x="659" y="283" fill="#F8F3FF" font-family="Arial,sans-serif" font-size="22" font-weight="700">8.46%</text>
+  <text x="659" y="303" fill="#F0ABFC" font-family="Arial,sans-serif" font-size="9" font-weight="600">↗  2.4% this month</text>
+  <rect x="848" y="229" width="216" height="91" rx="13" fill="#2A2040" stroke="#FFFFFF" stroke-opacity=".07"/>
+  <text x="865" y="252" fill="#A99CB8" font-family="Arial,sans-serif" font-size="9">CAMPAIGNS</text>
+  <text x="865" y="283" fill="#F8F3FF" font-family="Arial,sans-serif" font-size="22" font-weight="700">12</text>
+  <rect x="924" y="271" width="112" height="20" rx="10" fill="#402852"/>
+  <circle cx="939" cy="281" r="3.5" fill="#D8B4FE"/>
+  <text x="949" y="284" fill="#E9D5FF" font-family="Arial,sans-serif" font-size="8" font-weight="600">4 active now</text>
+  <rect x="436" y="338" width="391" height="274" rx="15" fill="#211A35" stroke="#FFFFFF" stroke-opacity=".07"/>
+  <text x="455" y="366" fill="#F4EEFA" font-family="Arial,sans-serif" font-size="12" font-weight="700">Campaign performance</text>
+  <text x="455" y="385" fill="#978AA6" font-family="Arial,sans-serif" font-size="9">Audience reach across all channels</text>
+  <rect x="730" y="351" width="77" height="24" rx="12" fill="#302542"/>
+  <text x="748" y="367" fill="#D7C9E5" font-family="Arial,sans-serif" font-size="8" font-weight="600">Last 7 days</text>
+  <g stroke="#FFFFFF" stroke-opacity=".07">
+    <path d="M458 421h348M458 461h348M458 501h348M458 541h348M458 581h348"/>
+  </g>
+  <path d="M472 548c38-19 42-69 82-57 39 12 47-36 86-27 40 9 51-45 89-36s50-34 74-44v197H472V548Z" fill="#8B5CF6" fill-opacity=".12"/>
+  <path d="M472 548c38-19 42-69 82-57 39 12 47-36 86-27 40 9 51-45 89-36s50-34 74-44" stroke="url(#chart)" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="803" cy="384" r="5" fill="#F0ABFC" stroke="#211A35" stroke-width="3"/>
+  <g fill="#897C98" font-family="Arial,sans-serif" font-size="8">
+    <text x="468" y="600">MON</text><text x="548" y="600">TUE</text><text x="628" y="600">WED</text><text x="708" y="600">THU</text><text x="786" y="600">FRI</text>
+  </g>
+  <rect x="840" y="338" width="224" height="274" rx="15" fill="#211A35" stroke="#FFFFFF" stroke-opacity=".07"/>
+  <text x="858" y="366" fill="#F4EEFA" font-family="Arial,sans-serif" font-size="12" font-weight="700">AI campaign studio</text>
+  <rect x="858" y="382" width="188" height="36" rx="10" fill="#2B2141"/>
+  <circle cx="875" cy="400" r="9" fill="#513074"/>
+  <path d="m875 394 2 5 5 2-5 2-2 5-2-5-5-2 5-2 2-5Z" fill="#E9D5FF"/>
+  <text x="891" y="397" fill="#E9D5FF" font-family="Arial,sans-serif" font-size="9" font-weight="700">AI assistant</text>
+  <text x="891" y="408" fill="#A99BB8" font-family="Arial,sans-serif" font-size="8">Ready to create</text>
+  <text x="858" y="441" fill="#A99BB8" font-family="Arial,sans-serif" font-size="8">GENERATED FOR YOUR BRAND</text>
+  <rect x="858" y="454" width="188" height="86" rx="11" fill="#342347"/>
+  <rect x="869" y="466" width="48" height="62" rx="7" fill="url(#spark)" fill-opacity=".75"/>
+  <circle cx="892" cy="485" r="9" fill="#FDE68A"/>
+  <path d="M877 520c3-13 9-19 15-19s12 6 15 19" fill="#FBCFE8"/>
+  <text x="929" y="479" fill="#F5E9FF" font-family="Arial,sans-serif" font-size="8" font-weight="700">Summer</text>
+  <text x="929" y="491" fill="#F5E9FF" font-family="Arial,sans-serif" font-size="8" font-weight="700">collection</text>
+  <text x="929" y="508" fill="#C4B5FD" font-family="Arial,sans-serif" font-size="7">Social campaign</text>
+  <text x="929" y="520" fill="#C4B5FD" font-family="Arial,sans-serif" font-size="7">Generated just now</text>
+  <rect x="858" y="554" width="188" height="39" rx="11" fill="#312447" stroke="#FFFFFF" stroke-opacity=".08"/>
+  <text x="872" y="578" fill="#CFC1DE" font-family="Arial,sans-serif" font-size="9">Ask AI to refine your idea</text>
+  <circle cx="1027" cy="574" r="11" fill="url(#spark)"/>
+  <path d="m1024 574 2 2 4-5" stroke="#FFF" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
